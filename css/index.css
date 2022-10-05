@@ -30,23 +30,9 @@
   margin-top: 40px;
 }
 
-
-
-.btn  {
-  margin-top: 50px;
-  margin-left: 50px;
-  width: 160px;
-}
-.link{
-  margin-left:550px;
-  margin-top:70px;
-  width:180px;
-  padding:10px;
-  color:#fff;
-  background-color: blue;
-  border-color: white;
-  border-radius: 20px;
-
+.card-img-overlay{
+text-shadow: 5px 5px 10px rgba(100, 93, 93, 0.4);
+color: #645d5d;
 }
 
 
@@ -57,4 +43,7 @@
   .flex-md-equal > * {
     flex: 1;
   }
+
 }
+
+
