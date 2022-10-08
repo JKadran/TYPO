@@ -1,16 +1,13 @@
+
 .container {
   max-width: 960px;
+
 }
 
 .pricing {
   max-width: 960px;
   margin: 0 auto;
 }
-
-
-/*
- * Custom translucent site header
- */
 
 .site-header {
   background-color: rgba(0, 0, 0, .85);
@@ -25,25 +22,69 @@
   color: #fff;
   text-decoration: none;
 }
+.img-fluid {
+  border-radius: 1px;
+}
+h1 {
+  margin-top: 20px;
+ text-shadow: 9px 3px 5px rgba(21, 143, 131, 0.7);
+  color: #586a59;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+ 
 
-.text-center {
-  margin-top: 40px;
+}
+ 
+h2{
+ margin-top: 120px;
+ margin-left: 150px;
+ text-align: justify;
+ width:80% ;
+ text-shadow: 5px 5px 10px rgba(100, 93, 93, 0.4);
+ color: #645d5d;
 }
 
-.card-img-overlay{
-text-shadow: 5px 5px 10px rgba(100, 93, 93, 0.4);
-color: #645d5d;
+h3{
+  color: #586a59;
+  
+}
+h6{
+  margin-top:36px;
+  color: #645d5d;
+}
+.contacts{
+ font-size: 20px;
+ margin-left: 60px;
 }
 
-
+a{
+ padding: 10px;
+}
+.phone{
+  font-size: 20px;
+ margin-left: 30px;
+ margin-top:10px;
+}
+.link-secondary{
+  font-size: 20px;
+  margin-top:20px;
+}
 .flex-equal > * {
   flex: 1;
 }
+
+
 @media (min-width: 768px) {
   .flex-md-equal > * {
     flex: 1;
   }
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+
+
+
 
 }
+
 
 
