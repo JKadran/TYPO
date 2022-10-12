@@ -25,8 +25,22 @@
 .img-fluid {
   border-radius: 1px;
 }
+.navbar-brand{
+  margin-left: 20px;
+  
+}
+
+
+.nav-item{
+  margin-left: 40px;
+  
+}
+.language {
+  margin-left: 450px;
+  margin-top: -10px;
+}
 h1 {
-  margin-top: 20px;
+  margin-top: -80px;
  text-shadow: 9px 3px 5px rgba(21, 143, 131, 0.7);
   color: #586a59;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
