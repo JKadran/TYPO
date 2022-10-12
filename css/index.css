@@ -81,8 +81,7 @@ a{
 }
 .phone{
  font-size: 20px;
- margin-left: 30px;
- margin-top:10px;
+
 }
 .link-secondary{
   font-size: 20px;
@@ -95,7 +94,9 @@ a{
 footer{
   margin-top: 50px;
 }
-
+.translate-middle{
+ 
+}
 @media (min-width: 768px) {
   .flex-md-equal > * {
     flex: 1;
@@ -103,7 +104,9 @@ footer{
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
   }
-
+ i {
+  width:30px;
+ }
 
 
 
