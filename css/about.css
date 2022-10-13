@@ -1,14 +1,8 @@
 body {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  color: #5a5a5a;
+  
+ 
 }
 
-
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
-
-/* Carousel base class */
 .carousel {
   margin-bottom: 4rem;
 }
@@ -40,11 +34,9 @@ body {
 /* rtl:end:ignore */
 
 
-/* Featurettes
-------------------------- */
 
 .featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  margin: 5rem 0; 
 }
 
 /* Thin out the marketing headings */
@@ -53,10 +45,48 @@ body {
   letter-spacing: -.05rem;
 }
 
-/* rtl:end:remove */
+.text-center{
+ text-align: justify;
+ margin: 50px;
+  
+}
+.container {
+  max-width: 960px;
 
-/* RESPONSIVE CSS
--------------------------------------------------- */
+}
+
+
+.pricing {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #8e8e8e;
+  transition: color .15s ease-in-out;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.img-fluid {
+  border-radius: 1px;
+}
+.navbar-brand{
+  margin-left: 20px;
+  
+}
+
+
+.nav-item{
+  margin-left: 40px;
+  
+}
 
 @media (min-width: 40em) {
   /* Bump up size of carousel content */
